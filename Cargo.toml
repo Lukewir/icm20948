@@ -1,8 +1,11 @@
 [package]
 name = "icm20948"
 version = "0.0.0"
+
 license = "MIT OR Apache-2.0"
 authors = ["Luke Wirtanen <WirtanenLuke@gmail.com>"]
+repository = "https://github.com/Lukewir/icm20948"
+
 edition = "2021"
 rust-version = "1.61"
 
@@ -10,7 +13,5 @@ rust-version = "1.61"
 
 [dependencies]
 
-
-
-
-
+[build-dependencies]
+cc = "1"
