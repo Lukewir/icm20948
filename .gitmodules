@@ -1,6 +1,3 @@
 [submodule "SparkFun_ICM-20948_ArduinoLibrary"]
 	path = sparkfun
 	url = https://github.com/sparkfun/SparkFun_ICM-20948_ArduinoLibrary
-[submodule "ArduinoFake"]
-	path = ArduinoFake
-	url = https://github.com/FabioBatSilva/ArduinoFake
