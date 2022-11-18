@@ -4,9 +4,11 @@ fn main() {
 
     cc::Build::new()
         .cpp(true)
-        .file("cpp/all.cpp")
+        .file("sparkfun/src/ICM_20948.cpp")
         .include("sparkfun")
         .include("cpp")
-        // .cpp_link_stdlib("stdc++") // use libstdc++
+        .include("src")
+        //.cpp_link_stdlib("stdc++")
+        //.cpp_link_stdlib("stdc++") // use libstdc++
         .compile("libsys.a");
 }
